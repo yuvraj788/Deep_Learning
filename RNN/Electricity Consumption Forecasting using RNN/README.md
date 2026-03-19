@@ -47,23 +47,13 @@ In this project, the RNN uses past electricity values to predict the next value.
 ### Steps:
 
 1. Data Preprocessing:
-   - Converted Datetime column to datetime format
-   - Sorted data and set Datetime as index
-   - Normalized values using MinMaxScaler
-
+   
 2. Sequence Creation:
-   - Used sliding window approach
-   - Input: last 24 hours
-   - Output: next hour value
-
+   
 3. Model Architecture:
-   - SimpleRNN layer with 50 units
-   - Dense output layer
-
+  
 4. Training:
-   - Loss function: Mean Squared Error (MSE)
-   - Optimizer: Adam
-
+   
 ---
 
 ## 5. Model Performance
